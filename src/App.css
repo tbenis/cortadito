@@ -29,3 +29,17 @@ footer .footer {
   width: 100%;
   padding: 1.25em;
 }
+/* text style */
+body{
+  font-family:'Niramit', sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+h1 {
+  font-size: 40px;
+}
+
+.brand {
+  font-size: 40px;
+  font-family: 'Redressed', cursive;
+}

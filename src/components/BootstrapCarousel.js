@@ -9,7 +9,7 @@ export default function BootstrapCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            style ={{height: 300}}
+            style ={{height: 500}}
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEvsOfweTZ13-21tBnLNSSIjR87RSu825b5w&usqp=CAU"
             alt="First slide"
           />
@@ -22,7 +22,7 @@ export default function BootstrapCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            style ={{height: 300}}
+            style ={{height: 500}}
             src="https://morrowlawfirm.net/wp-content/uploads/2017/09/immigration_law_banner.jpg"
             alt="Second slide"
           />
@@ -35,7 +35,7 @@ export default function BootstrapCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            style ={{height: 300}}
+            style ={{height: 500}}
             src="https://tinyurl.com/5ffdfrp4"
             alt="Third slide"
           />

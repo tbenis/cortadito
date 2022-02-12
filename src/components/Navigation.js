@@ -6,11 +6,12 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 export default class Navigation extends Component {
 
-    render() { return (
-        <>
-           
+    render() {
+        return (
+        
+           <div className='nav-bar'>
             <Navbar bg="light" variant="light" style={{ minWidth: 700}}>
-					<Navbar.Brand href="/">Cortadito</Navbar.Brand>
+					<Navbar.Brand className='brand' href="/">Cortadito</Navbar.Brand>
 					<Nav className="mr-auto" style={{marginLeft: "auto", paddingRight: 40 }}>
 						<Nav.Link href="/">Home</Nav.Link>
 						<Nav.Link href="about">About</Nav.Link>
@@ -18,8 +19,9 @@ export default class Navigation extends Component {
                         <Nav.Link href="legal">Legal Services</Nav.Link>
                         <Nav.Link href="signUp">Sign Up</Nav.Link>
 					</Nav>
-				</Navbar>
-        </>
-    )}
-
+                </Navbar>
+            </div>
+                    
+        )
+    }
 }
