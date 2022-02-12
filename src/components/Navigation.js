@@ -9,8 +9,8 @@ export default class Navigation extends Component {
     render() {
         return (
         
-           <div className='nav-bar'>
-            <Navbar bg="light" variant="light" style={{ minWidth: 700}}>
+           <div>
+            <Navbar className='nav-bar'style={{ minWidth: 700}}>
 					<Navbar.Brand className='brand' href="/">Cortadito</Navbar.Brand>
 					<Nav className="mr-auto" style={{marginLeft: "auto", paddingRight: 40 }}>
 						<Nav.Link href="/">Home</Nav.Link>

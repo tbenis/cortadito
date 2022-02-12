@@ -6,10 +6,10 @@ import mainImage from '../assets/main-pic.png'
 export default class Home extends Component {
 
     render() { return (
-        <>
+        <div className='home'>
            <BootstrapCarousel /> 
             <div className="about">
-             <h1>What is Cortadito?</h1>
+             <h1><strong>What is Cortadito?</strong></h1>
              <p>
             About 71% of Miami’s population identifies as Latin American, but
             just what is a Latin American? What makes up a Latin American? Well,
@@ -23,9 +23,8 @@ export default class Home extends Component {
             the community.
           </p>
           <Image className="w-50 p-3" src={mainImage} fluid />
-
+            </div>
         </div>
-        </>
     )}
 
 }
