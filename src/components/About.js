@@ -1,4 +1,8 @@
 import react, { Component } from 'react'
+import natasha from '../assets/natasha.jpg'
+import benis from '../assets/benis.jpeg'
+// import jen from '../assets/jen'
+import pema from '../assets/pema.png'
 
 export default class About extends Component {
 
@@ -22,16 +26,19 @@ export default class About extends Component {
             <div className='about-creators'>
         <h1>Get to know the mujeres behind Cortadito</h1>
         <div>
-          <h3>Benis</h3>
+                    <h3>Benis</h3>
+                    <img src={benis} alt='benis'></img>
         </div>
         <div>
           <h3>Jen</h3>
         </div>
         <div>
-          <h3>Natasha</h3>
+                    <h3>Natasha</h3>
+                    <img src={natasha} alt='natasha'></img>
         </div>
         <div>
-          <h3>Pema</h3>
+                    <h3>Pema</h3>
+                    <img src={pema} alt='pema'></img>
             </div>
             </div>
       </>

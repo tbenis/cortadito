@@ -41,7 +41,7 @@ h1 {
 }
 
 .brand {
-  font-size: 40px;
+  font-size: 45px;
   font-family: 'Redressed', cursive;
 }
 
@@ -49,6 +49,9 @@ h1 {
 .nav-bar {
   font-size: 25px;
   background-color: #7F4F24;
+}
+.nav-bar image {
+  color:white;
 }
 /* Cortadito */
 .navbar-light .navbar-brand {
@@ -63,6 +66,26 @@ h1 {
     background-color: #A68A64;
     color: white;
 }
+
+.about-cortadito{
+  color:white;
+}
+
+.about-creators{
+  color:#582F0E
+}
+h3 {
+  font-size: 50px;
+}
 .mental-health{
   color: white;
+}
+
+/* images from about */
+img, svg{
+  width: 50%;
+}
+
+.coffee {
+  width: 20px;
 }
