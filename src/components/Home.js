@@ -1,6 +1,7 @@
 import react, { Component } from 'react'
-import { Carousel } from 'react-bootstrap'
+import Image from 'react-bootstrap/Image'
 import BootstrapCarousel from './BootstrapCarousel'
+import mainImage from '../assets/main-pic.png'
 
 export default class Home extends Component {
 
@@ -21,6 +22,8 @@ export default class Home extends Component {
             Latin-America to resources available in Miami as well as people in
             the community.
           </p>
+          <Image className="w-50 p-3" src={mainImage} fluid />
+
         </div>
         </>
     )}
