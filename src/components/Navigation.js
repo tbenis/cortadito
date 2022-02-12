@@ -14,6 +14,7 @@ export default class Navigation extends Component {
             <Link to="/about">About</Link> |{" "}
             <Link to="/mental-health">Mental Health</Link> |{" "}
             <Link to="/legal">Legal Services</Link> 
+            <Link to="/signUp">SignUp</Link>
         </>
     )}
 
