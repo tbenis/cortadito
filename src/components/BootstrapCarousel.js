@@ -2,7 +2,6 @@ import React from "react";
 import { Carousel } from "react-bootstrap"
 import Button from 'react-bootstrap/Button';
 
-
 export default function BootstrapCarousel() {
   return (
     <div>
@@ -10,8 +9,8 @@ export default function BootstrapCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            style ={{height: 500}}
-            src="https://i.pinimg.com/736x/4e/09/15/4e09157b1c5d2d365c0e87ec4e7b7f9e.jpg"
+            style ={{height: 300}}
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEvsOfweTZ13-21tBnLNSSIjR87RSu825b5w&usqp=CAU"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -23,11 +22,10 @@ export default function BootstrapCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            style ={{height: 500}}
-            src="https://www.solidbackgrounds.com/images/5120x2880/5120x2880-cafe-au-lait-solid-color-background.jpg"
+            style ={{height: 300}}
+            src="https://morrowlawfirm.net/wp-content/uploads/2017/09/immigration_law_banner.jpg"
             alt="Second slide"
           />
-
           <Carousel.Caption>
             <h3>Immigration Lawyers </h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -37,8 +35,8 @@ export default function BootstrapCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            style ={{height: 500}}
-            src="https://www.solidbackgrounds.com/images/950x350/950x350-coffee-solid-color-background.jpg"
+            style ={{height: 300}}
+            src="https://tinyurl.com/5ffdfrp4"
             alt="Third slide"
           />
 
