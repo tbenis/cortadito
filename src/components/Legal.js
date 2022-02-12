@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 
-export default class Mentalhealth extends Component {
+export default class Legal extends Component {
 
     render() { return (
     <>
-    <h1>MENTAL HEALTH</h1>
-    <p>Miami was a hot spot during the pandemic and has been among the worst areas in the nation. The pandemic has exacerbated existing issues related to trauma, depression, anxiety, domestic violence, suicidality, and substance abuse among the Latinx families in Miami.</p>
-    <p>Hispanic/Latinx communities show similar vulnerability to mental illness as the general population, but they face disparities in both access to and quality of treatment. More than half of Hispanic young adults ages 18-25 with serious mental illness may not receive treatment. This inequality puts these communities at a higher risk for more severe and persistent forms of mental health conditions, because without treatment, mental health conditions often worsen.</p>
-    <p>Approximately 34% of Hispanic/Latinx adults with mental illness receive treatment each year compared to the U.S. average of 45%. This is due to many unique barriers to care.</p>
-    <p>Are you a Miami-Dade Latinx resident and need resources for mental health?</p>
+    <h1>LEGAL SERVICES</h1>
+    <p>For immigrants who arrive without documentation, the fear of deportation can prevent them from seeking help. Even though millions of children of undocumented immigrants are eligible for health insurance under the Affordable Care Act, many families either may not know about the eligibility or be afraid to register due to fear of separation.</p>
+
     <h1>Bilingual Psychiatrists</h1>
     <table>
         <tbody>

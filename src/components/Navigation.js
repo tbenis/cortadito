@@ -1,6 +1,7 @@
 import react, { Component } from 'react'
 import { Link } from "react-router-dom";
 import MentalHealth from "./MentalHealth";
+import Legal from "./Legal";
 
 export default class Navigation extends Component {
 
@@ -12,7 +13,8 @@ export default class Navigation extends Component {
 
             <Link to="/about">About</Link> |{" "}
             <Link to="/mental-health">Mental Health</Link> |{" "}
-            <Link to="/signUp">SignUp</Link>  
+            <Link to="/legal">Legal Services</Link> 
+            <Link to="/signUp">SignUp</Link>
         </>
     )}
 

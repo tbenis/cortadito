@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Signup from "./components/Signup";
 import Login from "./components/Login";
 import MentalHealth from "./components/MentalHealth"
+import Legal from "./components/Legal"
 
 import "./App.css";
 
@@ -25,9 +26,12 @@ function App() {
           </header>
           <Routes>
             <Route path="/" element={<Home />} />
+
             <Route path="/about" element={<About />} />
             <Route path="/mental-health" element={<MentalHealth />} />
+            <Route path="legal" element={<Legal />} />
             <Route path="/signUp" element={<Signup />} />
+
           </Routes>
         </div>
         <footer className="App-footer">
