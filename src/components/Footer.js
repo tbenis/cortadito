@@ -1,11 +1,14 @@
-import react, { Component } from 'react'
+import react, { Component } from "react";
 
 export default class Footer extends Component {
-
-    render() { return (
-        <>
-            <h1>  This is the Footer It is CUTEEEEEE</h1>
-        </>
-    )}
-
+  render() {
+    return (
+      <>
+        <div class="footer">
+           &copy; Copyright 2022,{" "}
+          <strong>CORTADITO </strong>
+        </div>
+      </>
+    );
+  }
 }
