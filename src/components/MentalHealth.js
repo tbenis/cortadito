@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import '../assets/css/mentalHealth.css'
 
 export default class Mentalhealth extends Component {
 
     render() { return (
-    <>
+      <>
+        <div className='mental-health'>
     <h1>MENTAL HEALTH</h1>
     <p>Miami was a hot spot during the pandemic and has been among the worst areas in the nation. The pandemic has exacerbated existing issues related to trauma, depression, anxiety, domestic violence, suicidality, and substance abuse among the Latinx families in Miami.</p>
     <p>Hispanic/Latinx communities show similar vulnerability to mental illness as the general population, but they face disparities in both access to and quality of treatment. More than half of Hispanic young adults ages 18-25 with serious mental illness may not receive treatment. This inequality puts these communities at a higher risk for more severe and persistent forms of mental health conditions, because without treatment, mental health conditions often worsen.</p>
@@ -151,6 +153,7 @@ export default class Mentalhealth extends Component {
           </tr>
           </tbody>
         </table>
+      </div>
     </>
     )
 }
