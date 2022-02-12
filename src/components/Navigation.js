@@ -9,6 +9,7 @@ export default class Navigation extends Component {
             <h1>  This is the Nav bar </h1>
 
             <Link to="/">Home</Link> |{" "}
+
             <Link to="/about">About</Link> |{" "}
             <Link to="/mental-health">Mental Health</Link> |{" "}
             <Link to="/signUp">SignUp</Link>  
