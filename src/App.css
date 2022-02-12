@@ -34,6 +34,7 @@ body{
   font-family:'Niramit', sans-serif;
   text-align: center;
   font-size: 30px;
+  background-color: #A68A64;
 }
 h1 {
   font-size: 40px;
@@ -42,4 +43,23 @@ h1 {
 .brand {
   font-size: 40px;
   font-family: 'Redressed', cursive;
+}
+
+/* nav bar */
+.nav-bar {
+  font-size: 25px;
+  background-color: #7F4F24;
+}
+/* Cortadito */
+.navbar-light .navbar-brand {
+  color: white;
+}
+/* Nav links */
+.navbar-light .navbar-nav .nav-link {
+  color: white
+}
+
+.about {
+    background-color: #A68A64;
+    color: white;
 }
