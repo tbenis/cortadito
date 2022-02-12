@@ -1,14 +1,21 @@
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navigation from "./components/Navigation";
 import Home from "./components/Home";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import Signup from "./components/Signup";
+import Login from "./components/Login";
 import MentalHealth from "./components/MentalHealth"
 
 import "./App.css";
 
 function App() {
+  const [token, setToken] = useState();
+  if(!token) {
+    // return <Login setToken={setToken} />
+  }
   return (
     <>
       <Router>
@@ -18,8 +25,9 @@ function App() {
           </header>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="mental-health" element={<MentalHealth />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/mental-health" element={<MentalHealth />} />
+            <Route path="/signUp" element={<Signup />} />
           </Routes>
         </div>
         <footer className="App-footer">
