@@ -1,12 +1,15 @@
 import react, { Component } from 'react'
+import { Carousel } from 'react-bootstrap'
+import BootstrapCarousel from './BootstrapCarousel'
 
 export default class Home extends Component {
 
     render() { return (
-      <>
-        <div className="about">
-          <h1>What is Cortadito?</h1>
-          <p>
+        <>
+           <BootstrapCarousel /> 
+            <div className="about">
+             <h1>What is Cortadito?</h1>
+             <p>
             About 71% of Miami’s population identifies as Latin American, but
             just what is a Latin American? What makes up a Latin American? Well,
             much like Miami’s signature coffee, “el cortadito”, it varies. Sure,
@@ -19,7 +22,7 @@ export default class Home extends Component {
             the community.
           </p>
         </div>
-      </>
-    );}
+        </>
+    )}
 
 }
