@@ -60,8 +60,8 @@ export default function BootstrapCarousel() {
             <p>
               Cortadito is introducing a new way to connect with the community
               in Miami. Click below to view our wonderful volunteer hosts who
-              will willing you take youu in for a day and share parts of their
-              culuture with you (Food, clothes, traditions etc)
+              are willing to take you in for a day and share parts of their
+              culture with you (food, excursions, traditions, etc).
             </p>
             <Button onClick={() => navigate("/community")} variant="light">
               Learn More
