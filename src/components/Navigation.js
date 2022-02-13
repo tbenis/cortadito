@@ -11,9 +11,7 @@ export default class Navigation extends Component {
         return (
           <div>
             <Navbar className="nav-bar" style={{ minWidth: 700 }}>
-              <img
-                id="coffee"
-                src={coffeelogo}></img>
+              <img id="coffee" src={coffeelogo}></img>
               <Navbar.Brand className="brand" href="/">
                 Cortadito
               </Navbar.Brand>
