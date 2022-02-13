@@ -34,15 +34,18 @@ export default function Login({ setToken }) {
           <p>Username</p>
           <input type="text" onChange={e => setUserName(e.target.value)} />
         </label>
+        <br/>
         <label>
           <p>Password</p>
           <input type="password" onChange={e => setPassword(e.target.value)}/>
         </label>
         <div>
+        <br/>
           <button type="submit">Submit</button>
         </div>
       </form>
       </div>
+      <br/><br/><br/>
     </>
   );
 }
