@@ -119,6 +119,11 @@ footer .footer {
   padding: 1.25em;
 }
 /* resources tables */
+
+.mentallink {
+  color: white;
+}
+
 .resourcedescription {
   color: white;
   margin-left: 10%;
@@ -160,6 +165,7 @@ footer .footer {
 
 .styled-table tbody tr:last-of-type {
   border-bottom: 1px solid rgb(100, 68, 21);
+
 }
 
 /* culture page */
