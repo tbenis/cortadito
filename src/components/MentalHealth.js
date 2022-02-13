@@ -5,16 +5,16 @@ export default class Mentalhealth extends Component {
 
     render() { return (
       <div className="mental-health">
-        <h1>
+        <h1 className="tabletitle">
           <strong>MENTAL HEALTH</strong>
         </h1>
-        <p>
+        <p className="resourcedescription">
           Miami was a hot spot during the pandemic and has been among the worst
           areas in the nation. The pandemic has exacerbated existing issues
           related to trauma, depression, anxiety, domestic violence,
           suicidality, and substance abuse among the Latinx families in Miami.
         </p>
-        <p>
+        <p className="resourcedescription">
           Hispanic/Latinx communities show similar vulnerability to mental
           illness as the general population, but they face disparities in both
           access to and quality of treatment. More than half of Hispanic young
@@ -32,14 +32,16 @@ export default class Mentalhealth extends Component {
           Are you a Miami-Dade Latinx resident and need resources for mental
           health?
         </p> */}
-        <h1>Bilingual Psychiatrists</h1>
-        <table className='mental-table'>
-          <tbody>
+        <h1 className="tabletitle">Bilingual Psychiatrists</h1>
+        <table className='styled-table'>
+          <thead>
             <tr>
               <th>Name</th>
               <th>Description</th>
               <th>Contact Info</th>
             </tr>
+            </thead>
+            <tbody>
             <tr>
               <th>Dr. Gonzalo F. Quesada, MD</th>
               <th>Psychiatrist</th>
@@ -70,14 +72,16 @@ export default class Mentalhealth extends Component {
           </tbody>
         </table>
 
-        <h1>Bilingual Therapists</h1>
-        <table>
-          <tbody>
+        <h1 className="tabletitle">Bilingual Therapists</h1>
+        <table className="styled-table">
+          <thead>
             <tr>
               <th>Name</th>
               <th>Description</th>
               <th>Contact Info</th>
             </tr>
+            </thead>
+            <tbody>
             <tr>
               <th>Teresita Lambertt, LMHC</th>
               <th>Counselor</th>
@@ -106,14 +110,16 @@ export default class Mentalhealth extends Component {
           </tbody>
         </table>
 
-        <h1>Hotlines and Websites</h1>
-        <table>
-          <tbody>
+        <h1 className="tabletitle">Hotlines and Websites</h1>
+        <table className="styled-table">
+          <thead>
             <tr>
               <th>Name</th>
               <th>Description</th>
               <th>Contact Info</th>
             </tr>
+            </thead>
+            <tbody>
             <tr>
               <th>Florida Blue Helpline</th>
               <th>Bilingual 24/7 free therapy for all</th>

@@ -4,19 +4,24 @@ export default class Legal extends Component {
 
     render() { return (
     <>
-    <h1>LEGAL SERVICES</h1>
-    <p>Miami-Dade residents and immigrants could face risks of being racially profiled and being detained without probable cause.</p>
-    <p>For immigrants who arrive without documentation, the fear of deportation can prevent them from seeking help. Even though millions of children of undocumented immigrants are eligible for health insurance under the Affordable Care Act, many families either may not know about the eligibility or be afraid to register due to fear of separation.</p>
-    <p>Are you a Miami-Dade Latinx immigrant or resident needing legal services?</p>
+    <h1 className="tabletitle">
+        <strong>LEGAL SERVICES</strong>
 
-    <h1>Immigration Services Providers</h1>
-    <table>
-        <tbody>
+        </h1>
+    <p className="resourcedescription">Miami-Dade residents and immigrants could face risks of being racially profiled and being detained without probable cause.</p>
+    <p className="resourcedescription">For immigrants who arrive without documentation, the fear of deportation can prevent them from seeking help. Even though millions of children of undocumented immigrants are eligible for health insurance under the Affordable Care Act, many families either may not know about the eligibility or be afraid to register due to fear of separation.</p>
+    <p className="resourcedescription">Are you a Miami-Dade Latinx immigrant or resident needing legal services?</p>
+
+    <h1 className="tabletitle">Immigration Services Providers</h1>
+    <table className="styled-table">
+        <thead>
           <tr>
             <th>Name</th>
             <th>Description</th>
             <th>Contact Info</th>
           </tr>
+          </thead>
+          <tbody>
           <tr>
             <th>Center for Immigrant Advancement, Inc. (CIMA)</th>
             <th>Pro Bono</th>
@@ -45,14 +50,16 @@ export default class Legal extends Component {
           </tbody>
         </table>
 
-        <h1>Other Legal Aid Providers</h1>
-    <table>
-        <tbody>
+        <h1 className="tabletitle">Other Legal Aid Providers</h1>
+    <table className="styled-table">
+        <thead>
           <tr>
             <th>Name</th>
             <th>Description</th>
             <th>Contact Info</th>
           </tr>
+          </thead>
+          <tbody>
           <tr>
             <th>Casa Miami</th>
             <th>Free legal services to immigrants that have been victims of domestic violence</th>
