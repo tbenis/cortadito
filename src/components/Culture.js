@@ -51,7 +51,7 @@ export default class Culture extends Component {
       const currName = JSON.parse(localStorage.getItem("user")).username;
       name = <> Welcome {currName}</>;
     } else {
-      name = "Login/Signup to see contact details for these wonderful hosts";
+      name = "Login or Signup to see contact details for these wonderful hosts";
     }
     return (
       <>
@@ -59,7 +59,7 @@ export default class Culture extends Component {
           <strong>Community Activities</strong>
         </h1>
         <div class="culture-container">
-          <h1> {name} </h1>
+          <h1 className="h1-name"> {name} </h1>
           <div class="row">
             {/* Card 1 */}
             <div class="column">
@@ -100,7 +100,7 @@ export default class Culture extends Component {
                         {" "}
                         <a
                           href="http://localhost:3000/login"
-                          style={{ color: "blue" }}
+                          className="community-a"
                         >
                           {loginplz}
                         </a>
@@ -149,7 +149,7 @@ export default class Culture extends Component {
                         {" "}
                         <a
                           href="http://localhost:3000/login"
-                          style={{ color: "blue" }}
+                          className="community-a"
                         >
                           {loginplz}
                         </a>
@@ -166,7 +166,7 @@ export default class Culture extends Component {
                 {/* <!-- Thumbnail--> */}
                 <div class="thumbnail">
                   <div class="date">
-                    <div class="day">30</div>
+                    <div class="day">27</div>
                     <div class="month">May</div>
                   </div>
                   <img src={family4} />
@@ -197,7 +197,7 @@ export default class Culture extends Component {
                         {" "}
                         <a
                           href="http://localhost:3000/login"
-                          style={{ color: "blue" }}
+                          className="community-a"
                         >
                           {loginplz}
                         </a>
@@ -214,7 +214,7 @@ export default class Culture extends Component {
                 {/* <!-- Thumbnail--> */}
                 <div class="thumbnail">
                   <div class="date">
-                    <div class="day">27</div>
+                    <div class="day">30</div>
                     <div class="month">May</div>
                   </div>
                   <img src={family8} />
@@ -247,7 +247,7 @@ export default class Culture extends Component {
                         {" "}
                         <a
                           href="http://localhost:3000/login"
-                          style={{ color: "blue" }}
+                          className="community-a"
                         >
                           {loginplz}
                         </a>
@@ -295,7 +295,7 @@ export default class Culture extends Component {
                         {" "}
                         <a
                           href="http://localhost:3000/login"
-                          style={{ color: "blue" }}
+                          className="community-a"
                         >
                           {loginplz}
                         </a>
@@ -345,7 +345,7 @@ export default class Culture extends Component {
                         {" "}
                         <a
                           href="http://localhost:3000/login"
-                          style={{ color: "blue" }}
+                          className="community-a"
                         >
                           {loginplz}
                         </a>
@@ -356,7 +356,6 @@ export default class Culture extends Component {
               </div>
             </div>
           </div>
-
           <br />
           <br />
           <br />

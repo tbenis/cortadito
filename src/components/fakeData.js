@@ -42,7 +42,7 @@ if (localStorage.getItem("user")) {
     email4 = ""
     email5 = ""
     email6 = ""
-    loginplz = "please login to view full contact details"
+    loginplz = "Login to view full contact details"
   }
 
   export {add1, add2, add3, add4, add5, add6, pn1, pn2, pn3, pn4, pn5, pn6, email1, email2, email3, email4, email5, email6, loginplz}
