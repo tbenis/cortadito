@@ -1,7 +1,5 @@
-import react, { Component } from 'react'
-import { Link } from "react-router-dom";
-import MentalHealth from "./MentalHealth";
-import Legal from "./Legal";
+import  { Component } from 'react'
+
 import { Navbar, Nav } from 'react-bootstrap';
 import coffeelogo from '../assets/coffeecup.gif'
 

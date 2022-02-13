@@ -57,6 +57,11 @@ h1 {
 .navbar-light .navbar-brand {
   color: white;
 }
+
+.navbar-light .navbar-brand:hover {
+  color: #582F0E;
+}
+
 /* Nav links */
 .navbar-light .navbar-nav .nav-link {
   color: white

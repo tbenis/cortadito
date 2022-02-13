@@ -10,7 +10,7 @@ export default function BootstrapCarousel() {
           <img
             className="d-block w-100"
             style={{ height: 500 }}
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEvsOfweTZ13-21tBnLNSSIjR87RSu825b5w&usqp=CAU"
+            src="https://i2.wp.com/healinghopecounselingaz.com/wp-content/uploads/2018/05/mental-banner.png?fit=1200%2C360&ssl=1"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -21,7 +21,7 @@ export default function BootstrapCarousel() {
               This is due to many unique barriers to care. Are you a Miami-Dade
               Latinx resident and need resources for mental health?
             </p>
-            <Button variant="outline-light">Click Here to Learn More</Button>{" "}
+            <Button variant="light">Learn More</Button>{" "}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -34,7 +34,7 @@ export default function BootstrapCarousel() {
           <Carousel.Caption>
             <h3>Immigration Lawyers </h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <Button variant="outline-light">Learn More</Button>{" "}
+            <Button variant="light">Learn More</Button>{" "}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -50,7 +50,7 @@ export default function BootstrapCarousel() {
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
-            <Button variant="outline-light">Learn More</Button>{" "}
+            <Button variant="light">Learn More</Button>{" "}
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
