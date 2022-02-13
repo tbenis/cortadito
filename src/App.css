@@ -3,20 +3,18 @@
   flex-direction: column;
   align-items: center;
 }
-
-
 /* text style */
 body{
   font-family:'Niramit', sans-serif;
   text-align: center;
   font-size: 30px;
   background-color: #A68A64;
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 h1 {
-  font-size: 40px;
+font-size: 40px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -49,7 +47,9 @@ a.brand.navbar-brand {
 
 /* Nav links */
 .navbar-light .navbar-nav .nav-link {
-  color: white
+  color: white; 
+  font-size: 20px;
+
 }
 .nav-link{
   color: #582F0E;
@@ -75,9 +75,7 @@ a.brand.navbar-brand {
 h3 {
   font-size: 50px;
 }
-.mental-health{
-  color: 
-}
+
 
 /* images from about */
 svg{
@@ -119,9 +117,6 @@ footer .footer {
   width: 100%;
   padding: 1.25em;
 }
-
-
-
 /* resources tables */
 .resourcedescription {
   color: white;
@@ -166,6 +161,7 @@ footer .footer {
   border-bottom: 1px solid rgb(100, 68, 21);
 }
 
+
 .goog-te-gadget {
     float: right;
     background: linear-gradient(135deg, #c27b4bde, #e09a6bde);
@@ -173,4 +169,66 @@ footer .footer {
     padding-top: 33px;
     padding-bottom: 38px;
     padding-right: 30px;
+}
+
+/* culture page */
+.family9 {
+  width: 50px;
+}
+div.card-container.card-group{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+}
+
+/* Form  
+ color: white; 
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    margin-top:50%;
+    margin: 0 auto;
+    position: relative;
+*/ 
+
+.login-wrapper{
+  color: white; 
+  border:rgba(1, 0, 0, 0.15);
+  width: 400px;
+  margin-top:5%;
+  margin-left: 40%;
+  margin-bottom: 0;
+  background-color: rgba(127, 79, 36, 0.1); 
+  border: 2px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 40px rgba(8,7,16,0.6);
+  border-radius: 12px;
+}
+button{
+  border-radius: 12px;
+  color: white; 
+  background-color:rgb(100, 68, 21);
+  font-size: 16px;
+  border: none;
+  margin-bottom: 10px;
+}
+input{
+  border-radius: 12px;
+  border: 1px solid white;
+  color:rgb(100, 68, 21);
+}
+input:focus{
+  color:rgb(100, 68, 21);
+}
+.form-h1{
+  color:rgb(100, 68, 21);
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 4px;
 }
