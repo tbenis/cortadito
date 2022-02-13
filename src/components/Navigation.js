@@ -36,8 +36,11 @@ export default class Navigation extends Component {
             <Nav.Link href="about">About</Nav.Link>
             <Nav.Link href="mental-health">Mental Health</Nav.Link>
             <Nav.Link href="legal">Legal Services</Nav.Link>
+            <Nav.Link href="community">Community</Nav.Link>
             {logInLink}
           </Nav>
+            
+
         </Navbar>
       </div>
     );

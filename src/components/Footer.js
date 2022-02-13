@@ -6,9 +6,8 @@ export default class Footer extends Component {
       <>
         <div class="footer">
           <small>
-            &copy; 2022 Benis USA <strong>CORTADITO </strong>{" "}
+            &copy; Copyright, <strong>CORTADITO </strong>,{" "} 2022
           </small>
-          <strong>CORTADITO </strong>
         </div>
       </>
     );

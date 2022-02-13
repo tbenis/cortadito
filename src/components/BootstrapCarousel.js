@@ -33,7 +33,7 @@ export default function BootstrapCarousel() {
           />
           <Carousel.Caption>
             <h3>Immigration Lawyers </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>With the ever-growing Hispanic population in Miami, it is no surprise that there is need for immigration services. Are you looking for help with immigration services? Click below </p>
             <Button variant="light">Learn More</Button>{" "}
           </Carousel.Caption>
         </Carousel.Item>
@@ -48,7 +48,7 @@ export default function BootstrapCarousel() {
           <Carousel.Caption>
             <h3>Community</h3>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              Cortadito is introducing a new way to connect with the community in Miami. Click below to view our wonderful volunteer hosts who will willing you take youu in for a day and share parts of their culuture with you (Food, clothes, traditions etc)
             </p>
             <Button variant="light">Learn More</Button>{" "}
           </Carousel.Caption>

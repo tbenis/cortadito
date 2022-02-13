@@ -6,17 +6,10 @@ export default class Mentalhealth extends Component {
 
     render() { 
 
-      let name;
-      if(localStorage.getItem("user")){
-        name = <><br/> <br/> <h1>Welcome {localStorage.getItem("user")}</h1> <br/><br/> </>
-      } else {
-        name = ""
-      }
       return (
       <div className="mental-health">
 
 
-        {name}
         <h1 className="tabletitle">
           <strong>MENTAL HEALTH</strong>
         </h1>
