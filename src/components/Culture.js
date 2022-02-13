@@ -1,6 +1,13 @@
 import react, { Component } from "react";
 import $ from 'jquery';
 import {add1, add2, add3, add4, add5, add6, pn1, pn2, pn3, pn4, pn5, pn6, email1, email2, email3, email4, email5, email6} from "./fakeData"
+import family1 from '../assets/family1.jpg'
+import family2 from "../assets/family2.jpg";
+import family3 from "../assets/family3.jpg";
+import family4 from "../assets/family4.jpg";
+import family5 from "../assets/family5.jpg";
+import family6 from "../assets/family6.jpg";
+
 
 import "../assets/css/card.css";
 export default class Culture extends Component {
@@ -42,8 +49,8 @@ export default class Culture extends Component {
               {/* <!-- Thumbnail--> */}
               <div class="thumbnail">
                 <div class="date">
-                  <div class="day">15</div>
-                  <div class="month">Mar</div>
+                  <div class="day">day</div>
+                  <div class="month">month</div>
                 </div>
                 <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" />
               </div>
