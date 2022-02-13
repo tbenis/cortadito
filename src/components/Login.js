@@ -14,7 +14,7 @@ export default function Login({ setToken }) {
 
  const handleSubmit = async e => {
   e.preventDefault();
-  window.location.replace("http://localhost:3000/mental-health")
+  window.location.replace("http://localhost:3000/community")
   const token = await loginUser({
     username,
     password
@@ -49,44 +49,6 @@ export default function Login({ setToken }) {
     </>
   );
 }
-//   const [email, setEmail] = useState("");
-//   const [password, setPassword] = useState("");
-
-//   function validateForm() {
-//     return email.length > 0 && password.length > 0;
-//   }
-
-//   function handleSubmit(event) {
-//     event.preventDefault();
-//   }
-
-//   return (
-//     <div className="Login">
-//       <Form onSubmit={handleSubmit}>
-//         <Form.Group size="lg" controlId="email">
-//           <Form.Label>Email</Form.Label>
-//           <Form.Control
-//             autoFocus
-//             type="email"
-//             value={email}
-//             onChange={(e) => setEmail(e.target.value)}
-//           />
-//         </Form.Group>
-//         <Form.Group size="lg" controlId="password">
-//           <Form.Label>Password</Form.Label>
-//           <Form.Control
-//             type="password"
-//             value={password}
-//             onChange={(e) => setPassword(e.target.value)}
-//           />
-//         </Form.Group>
-//         <Button block size="lg" type="submit" disabled={!validateForm()}>
-//           Login
-//         </Button>
-//       </Form>
-//     </div>
-//   );
-
 Login.propTypes = {
     setToken: PropTypes.func.isRequired
   }
