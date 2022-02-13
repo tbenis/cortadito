@@ -17,7 +17,7 @@ export default class Navigation extends Component {
       window.location.replace("http://localhost:3000/mental-health")
     }
 
-    function clearStorage() {
+  function clearStorage() {
       localStorage.clear();
       window.location.replace("http://localhost:3000/")
     }
@@ -39,8 +39,7 @@ export default class Navigation extends Component {
             <Nav.Link href="community">Community</Nav.Link>
             {logInLink}
           </Nav>
-            
-
+          
         </Navbar>
       </div>
     );

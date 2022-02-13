@@ -2,7 +2,10 @@ import React from "react";
 import { Carousel } from "react-bootstrap"
 import Button from 'react-bootstrap/Button';
 
+
+
 export default function BootstrapCarousel() {
+
   return (
     <div>
       <Carousel>
@@ -34,7 +37,7 @@ export default function BootstrapCarousel() {
           <Carousel.Caption>
             <h3>Immigration Lawyers </h3>
             <p>With the ever-growing Hispanic population in Miami, it is no surprise that there is need for immigration services. Are you looking for help with immigration services? Click below </p>
-            <Button variant="light">Learn More</Button>{" "}
+            <Button variant="light" >Learn More</Button>{" "}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
