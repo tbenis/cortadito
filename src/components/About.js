@@ -2,7 +2,7 @@ import react, { Component } from "react";
 import natasha from "../assets/natasha.jpg";
 import benis from "../assets/benis.jpeg";
 import jen from "../assets/jen.jpeg";
-import pema from "../assets/pema.png";
+import pema from "../assets/pema1.jpg";
 
 export default class About extends Component {
   render() {
