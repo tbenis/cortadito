@@ -13,10 +13,8 @@ import Legal from "./components/Legal"
 import "./App.css";
 
 function App() {
-  const [token, setToken] = useState();
-  if(!token) {
-    // return <Login setToken={setToken} />
-  }
+  // const { token, setToken } = useToken();
+  
   return (
     <>
       <Router>
@@ -31,7 +29,8 @@ function App() {
             <Route path="/mental-health" element={<MentalHealth />} />
             <Route path="legal" element={<Legal />} />
             <Route path="/signUp" element={<Signup />} />
-
+            <Route path="/login" element={<Login />} />
+            <Route path="/logout" element={<Home />} />
           </Routes>
         </div>
         <footer className="App-footer">
