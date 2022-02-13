@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../assets/css/mentalHealth.css'
+import therapist from "../assets/therapist.jpeg"
 
 export default class Mentalhealth extends Component {
 
@@ -8,6 +9,7 @@ export default class Mentalhealth extends Component {
         <h1 className="tabletitle">
           <strong>MENTAL HEALTH</strong>
         </h1>
+        <img src={therapist} className="resourceimg"></img>
         <p className="resourcedescription">
           Miami was a hot spot during the pandemic and has been among the worst
           areas in the nation. The pandemic has exacerbated existing issues
