@@ -82,8 +82,13 @@ svg {
 }
 
 .aboutpic {
-  width: 20%;
-  border-radius: 50%;
+  width: 100%;
+  border-radius: 30%;
+}
+
+.aboutpic-1 {
+  width: 100%;
+  border-radius: 40%;
 }
 
 #coffee {
@@ -275,7 +280,8 @@ h3 {
 .about-creators {
   color: white;
   font-size: 20px;
-  margin-left: 36%; 
+  display: flex;
+  padding-bottom: 50px;
 }
 .each-creator {
   background-color: rgba(127, 79, 36, 0.1);
@@ -285,10 +291,7 @@ h3 {
   margin: 10px;
   padding: 10px;
 }
-.aboutpic-1 {
-  width: 30%;
-  border-radius: 50%;
-}
+
 
 /* Community Page colors*/
 
