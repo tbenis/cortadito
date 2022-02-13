@@ -6,6 +6,8 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Signup from "./components/Signup";
+import Culture from "./components/Culture";
+import GoogleTranslate from "./components/GoogleTranslate";
 import Login from "./components/Login";
 import MentalHealth from "./components/MentalHealth"
 import Legal from "./components/Legal"
@@ -20,6 +22,7 @@ function App() {
       <Router>
         <div className="App">
           <header className="App-header">
+          <GoogleTranslate/>
             <Navigation />
           </header>
           <Routes>
@@ -31,6 +34,7 @@ function App() {
             <Route path="/signUp" element={<Signup />} />
             <Route path="/login" element={<Login />} />
             <Route path="/logout" element={<Home />} />
+            <Route path="/community" element={<Culture />} />
           </Routes>
         </div>
         <footer className="App-footer">
