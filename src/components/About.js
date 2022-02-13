@@ -1,7 +1,7 @@
 import react, { Component } from 'react'
 import natasha from '../assets/natasha.jpg'
 import benis from '../assets/benis.jpeg'
-// import jen from '../assets/jen'
+import jen from '../assets/jen.jpeg'
 import pema from '../assets/pema.png'
 
 export default class About extends Component {
@@ -27,18 +27,19 @@ export default class About extends Component {
         <h1>Get to know the mujeres behind Cortadito</h1>
         <div>
                     <h3>Benis</h3>
-                    <img src={benis} alt='benis'></img>
+                    <img className="aboutpic" src={benis} alt='benis'></img>
         </div>
         <div>
           <h3>Jen</h3>
+          <img className="aboutpic" src={jen} alt='natasha'></img>
         </div>
         <div>
                     <h3>Natasha</h3>
-                    <img src={natasha} alt='natasha'></img>
+                    <img className="aboutpic" src={natasha} alt='natasha'></img>
         </div>
         <div>
                     <h3>Pema</h3>
-                    <img src={pema} alt='pema'></img>
+                    <img className="aboutpic" src={pema} alt='pema'></img>
             </div>
             </div>
       </>
