@@ -1,7 +1,7 @@
 import React from "react";
-import { Carousel } from "react-bootstrap"
-import Button from 'react-bootstrap/Button';
-import { useNavigate } from 'react-router';
+import { Carousel } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import { useNavigate } from "react-router";
 
 export default function BootstrapCarousel() {
   let navigate = useNavigate();
@@ -18,12 +18,14 @@ export default function BootstrapCarousel() {
           <Carousel.Caption>
             <h3>Mental Health</h3>
             <p>
-              Approximately 34% of Latinx adults with mental illness
-              receive treatment each year compared to the U.S. average of 45%.
-              This is due to many unique barriers to care. Are you a Miami-Dade
-              Latinx resident and need resources for mental health?
+              Approximately 34% of Latinx adults with mental illness receive
+              treatment each year compared to the U.S. average of 45%. This is
+              due to many unique barriers to care. Are you a Miami-Dade Latinx
+              resident and need resources for mental health?
             </p>
-            <Button onClick={() => navigate("/mental-health")} variant="light">Learn More</Button>{" "}
+            <Button onClick={() => navigate("/mental-health")} variant="light">
+              Learn More
+            </Button>{" "}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -35,8 +37,14 @@ export default function BootstrapCarousel() {
           />
           <Carousel.Caption>
             <h3>Immigration Lawyers </h3>
-            <p>With the ever-growing Latinx population in Miami, it is no surprise that there is need for immigration services. Are you looking for help with immigration services? Click below </p>
-            <Button onClick={() => navigate("/legal")} variant="light">Learn More</Button>{" "}
+            <p>
+              With the ever-growing Latinx population in Miami, it is no
+              surprise that there is need for immigration services. Are you
+              looking for help with immigration services? Click below{" "}
+            </p>
+            <Button onClick={() => navigate("/legal")} variant="light">
+              Learn More
+            </Button>{" "}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -50,13 +58,17 @@ export default function BootstrapCarousel() {
           <Carousel.Caption>
             <h3>Community</h3>
             <p>
-              Cortadito is introducing a new way to connect with the community in Miami. Click below to view our wonderful volunteer hosts who will willing you take youu in for a day and share parts of their culuture with you (Food, clothes, traditions etc)
+              Cortadito is introducing a new way to connect with the community
+              in Miami. Click below to view our wonderful volunteer hosts who
+              will willing you take youu in for a day and share parts of their
+              culuture with you (Food, clothes, traditions etc)
             </p>
-            <Button onClick={() => navigate("/community")} variant="light">Learn More</Button>{" "}
+            <Button onClick={() => navigate("/community")} variant="light">
+              Learn More
+            </Button>{" "}
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
     </div>
   );
 }
-

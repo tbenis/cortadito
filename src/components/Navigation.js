@@ -1,25 +1,32 @@
-import  { Component } from 'react'
+import { Component } from "react";
 
-import { Navbar, Nav } from 'react-bootstrap';
-import coffeelogo from '../assets/coffeecup.gif'
+import { Navbar, Nav } from "react-bootstrap";
+import coffeelogo from "../assets/coffeecup.gif";
 
 export default class Navigation extends Component {
   render() {
     let logInLink;
     if (localStorage.getItem("user")) {
-      logInLink = <Nav.Link href="logout" onClick={clearStorage}>Logout</Nav.Link>;
-      
+      logInLink = (
+        <Nav.Link href="logout" onClick={clearStorage}>
+          Logout
+        </Nav.Link>
+      );
     } else {
-      logInLink = <Nav.Link href="login" onClick={gotToMentalHealth}>Login/Signup</Nav.Link>;
+      logInLink = (
+        <Nav.Link href="login" onClick={gotToMentalHealth}>
+          Login/Signup
+        </Nav.Link>
+      );
     }
 
     function gotToMentalHealth() {
-      window.location.replace("http://localhost:3000/mental-health")
+      window.location.replace("http://localhost:3000/mental-health");
     }
 
-  function clearStorage() {
+    function clearStorage() {
       localStorage.clear();
-      window.location.replace("http://localhost:3000/")
+      window.location.replace("http://localhost:3000/");
     }
     return (
       <div>
@@ -39,7 +46,6 @@ export default class Navigation extends Component {
             <Nav.Link href="community">Community</Nav.Link>
             {logInLink}
           </Nav>
-          
         </Navbar>
       </div>
     );
