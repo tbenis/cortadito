@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import MentalHealth from "./MentalHealth";
 import Legal from "./Legal";
 import { Navbar, Nav } from 'react-bootstrap';
+import coffeelogo from '../assets/coffeecup.gif'
 
 export default class Navigation extends Component {
 
@@ -12,8 +13,7 @@ export default class Navigation extends Component {
             <Navbar className="nav-bar" style={{ minWidth: 700 }}>
               <img
                 id="coffee"
-                src="https://previews.123rf.com/images/fokaspokas/fokaspokas1803/fokaspokas180300007/96756525-cup-of-hot-coffee-icon-on-transparent-background-.jpg"
-              ></img>
+                src={coffeelogo}></img>
               <Navbar.Brand className="brand" href="/">
                 Cortadito
               </Navbar.Brand>

@@ -82,10 +82,14 @@ h3 {
 }
 
 /* images from about */
-img, svg{
+svg{
   width: 50%;
 }
 
-.coffee {
-  width: 20px;
+.aboutpic {
+  width: 30%;
+}
+
+#coffee {
+  width: 100px;
 }
