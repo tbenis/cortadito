@@ -33,47 +33,34 @@ export default class About extends Component {
           <div className="each-creator">
             <h3>Benis</h3>
             <img className="aboutpic" src={benis} alt="benis"></img>
-            <p>
-              https://github.com/tbenis <a href="https://github.com/tbenis" />{" "}
-            </p>
-            <p>
-              https://www.linkedin.com/in/tbenis/{" "}
-              <a href="https://www.linkedin.com/in/tbenis/" />{" "}
-            </p>
+            <p>Benis is a Computer Science Junior at University of Maryland, College Park. She has worked in the tech industry for about two years as a User Interface developer and enjoys building fun web apps in her spare time.</p>
+            <p><a href="https://github.com/tbenis" className="aboutlink">https://github.com/tbenis </a>  </p>
+            <p><a href="https://www.linkedin.com/in/tbenis/" className="aboutlink">https://www.linkedin.com/in/tbenis/</a>  </p>
           </div>
+
           <div className="each-creator">
             <h3>Jen</h3>
-            <img className="aboutpic" src={jen} alt="natasha"></img>
-            <p>
-              https://github.com/hopesunknown{" "}
-              <a href="https://github.com/hopesunknown" />{" "}
-            </p>
-            <p>
-              https://www.linkedin.com/in/jentchai/ <a href="" />{" "}
-            </p>
+            <img className="aboutpic" src={jen} alt="jen"></img>
+            <p>Jen is a Software Engineering student at Flatiron School. She has a background in Mental Health with a Bachelor's and Master's in Psychology. She has a passion for coding projects that contribute towards a positive impact for other people. She enjoys hiking, cooking, drawing, painting, and traveling in her free time.</p>
+            <p> <a href="https://github.com/hopesunknown" className="aboutlink">https://github.com/hopesunknown</a></p>
+            <p><a href="https://www.linkedin.com/in/jentchai/" className="aboutlink">https://www.linkedin.com/in/jentchai/</a>  </p>
           </div>
+
           <div className="each-creator">
             <h3>Natasha</h3>
             <img className="aboutpic" src={natasha} alt="natasha"></img>
-            <p>
-              https://github.com/KollerCode{" "}
-              <a href="https://github.com/KollerCode" />{" "}
-            </p>
-            <p>
-              https://www.linkedin.com/in/kollernatasha/{" "}
-              <a href="https://www.linkedin.com/in/kollernatasha/" />{" "}
-            </p>
+            <p>Natasha is a jack of all trades. Holding a Master's in International Education and an undergraduate degree in Anthropology and music. She is always looking for a challenge and has traveled around the world picking up various languages along the way. Coding is her newest passion and she is feels like she is finally where she belongs.</p>
+            <p><a href="https://github.com/KollerCode" className="aboutlink">https://github.com/KollerCode</a>  </p>
+            <p><a href="https://www.linkedin.com/in/kollernatasha/" className="aboutlink">https://www.linkedin.com/in/kollernatasha/</a>  </p>
           </div>
+          
           <div className="each-creator">
             <h3>Pema</h3>
             <img className="aboutpic-1" src={pema} alt="pema"></img>
-            <p>
-              https://github.com/PemaL <a href="https://github.com/PemaL" />{" "}
-            </p>
-            <p>
-              https://www.linkedin.com/in/pemal/{" "}
-              <a href="https://www.linkedin.com/in/pemal/ " />{" "}
-            </p>
+            <p>Pema is a recent Computer Science graduate with experience in full stack development. When she is not in front of a screen, she is eating her way through New York City.</p>
+            <p><a href="https://github.com/PemaL" className="aboutlink">https://github.com/PemaL</a>  </p>
+            <p><a href="https://www.linkedin.com/in/pemal/" className="aboutlink">https://www.linkedin.com/in/pemal/</a>  </p>
+
           </div>
           <br />
         </div>

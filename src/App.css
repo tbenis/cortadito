@@ -197,9 +197,6 @@ footer .footer {
 }
 
 /* culture page */
-.family9 {
-  width: 50px;
-}
 div.card-container.card-group {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -258,6 +255,16 @@ input:focus {
   margin-top: 4px;
 }
 
+
+.aboutlink {
+  color: white;
+  text-decoration: underline;
+}
+.aboutlink:hover {
+  color: white;
+  text-decoration: none;
+}
+
 h3 {
   color: white;
   font-weight: bold;
@@ -276,6 +283,7 @@ h3 {
   box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
   width: 40%;
   margin: 10px;
+  padding: 10px;
 }
 .aboutpic-1 {
   width: 30%;
