@@ -38,6 +38,8 @@ body{
 }
 h1 {
   font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .brand {
@@ -95,7 +97,7 @@ h3 {
   font-size: 50px;
 }
 .mental-health{
-  color: white;
+  color: 
 }
 
 /* images from about */
@@ -104,9 +106,54 @@ svg{
 }
 
 .aboutpic {
-  width: 30%;
+  width: 20%;
 }
 
 #coffee {
   width: 100px;
+}
+
+
+/* resources tables */
+.resourcedescription {
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.tabletitle {
+  color: #412c1c;
+}
+
+.styled-table {
+  border-collapse: collapse;
+    margin: 5% 10%;
+    font-size: 0.7em;
+    font-family: sans-serif;
+    width: 80%;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color:#582F0E;
+  color: white;
+  text-align: center;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    color: white;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #926d4f;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 1px solid rgb(100, 68, 21);
 }

@@ -10,13 +10,16 @@ export default class About extends Component {
       <>
         <div className="about-cortadito">
           <h1>Why do we need Cortadito?</h1>
-          <p>
+          <p className="resourcedescription">
             The parts that make the Latinx community so diverse are also the
-            ones that bring the community together. However, it’s not without
-            its challenges. When people emmigrate from Latin America to the U.S.
+            ones that bring the community together. However, it's not without
+            its challenges.</p>
+            <p className="resourcedescription">
+            When people emmigrate from Latin America to the U.S.
             they bring with them their culture and language. Preserving those
             traditions and finding their identities in their new homes can be a
-            challenge for many immigrants. Whether the circumstances of their
+            challenge for many immigrants.</p>
+            <p className="resourcedescription">Whether the circumstances of their
             arrival is planned or forced, lawfully or unlawfully, moving to a
             foreign land with a new language can be very stressful. It is in
             familiarity that we find comfort, which could be why that percentage
