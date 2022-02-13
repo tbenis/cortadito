@@ -33,26 +33,26 @@ export default class About extends Component {
           <div>
             <h3>Benis</h3>
             <img className="aboutpic" src={benis} alt="benis"></img>
-            <p>https://github.com/tbenis <a href="https://github.com/tbenis" />  </p>
-            <p>https://www.linkedin.com/in/tbenis/ <a href="https://www.linkedin.com/in/tbenis/" />  </p>
+            <p><a href="https://github.com/tbenis" className="aboutlink">https://github.com/tbenis </a>  </p>
+            <p><a href="https://www.linkedin.com/in/tbenis/" className="aboutlink">https://www.linkedin.com/in/tbenis/</a>  </p>
           </div>
           <div>
             <h3>Jen</h3>
             <img className="aboutpic" src={jen} alt="natasha"></img>
-            <p>https://github.com/hopesunknown {" "} <a href="https://github.com/hopesunknown" /> </p>
-            <p>https://www.linkedin.com/in/jentchai/ {" "} <a href="" />  </p>
+            <p> <a href="https://github.com/hopesunknown" className="aboutlink">https://github.com/hopesunknown</a></p>
+            <p><a href="https://www.linkedin.com/in/jentchai/" className="aboutlink">https://www.linkedin.com/in/jentchai/</a>  </p>
           </div>
           <div>
             <h3>Natasha</h3>
             <img className="aboutpic" src={natasha} alt="natasha"></img>
-            <p>https://github.com/KollerCode <a href="https://github.com/KollerCode" />  </p>
-            <p>https://www.linkedin.com/in/kollernatasha/ <a href="https://www.linkedin.com/in/kollernatasha/" />  </p>
+            <p><a href="https://github.com/KollerCode" className="aboutlink">https://github.com/KollerCode</a>  </p>
+            <p><a href="https://www.linkedin.com/in/kollernatasha/" className="aboutlink">https://www.linkedin.com/in/kollernatasha/</a>  </p>
           </div>
           <div>
             <h3>Pema</h3> 
             <img className="aboutpic" src={pema} alt="pema"></img>
-            <p>https://github.com/PemaL <a href="https://github.com/PemaL" />  </p>
-            <p>https://www.linkedin.com/in/pemal/ <a href="https://www.linkedin.com/in/pemal/ " />  </p>
+            <p><a href="https://github.com/PemaL" className="aboutlink">https://github.com/PemaL</a>  </p>
+            <p><a href="https://www.linkedin.com/in/pemal/" className="aboutlink">https://www.linkedin.com/in/pemal/</a>  </p>
           </div>
           <br/>
         </div>
