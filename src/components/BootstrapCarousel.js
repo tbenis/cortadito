@@ -16,7 +16,7 @@ export default function BootstrapCarousel() {
           <Carousel.Caption>
             <h3>Mental Health</h3>
             <p>
-              Approximately 34% of Hispanic/Latinx adults with mental illness
+              Approximately 34% of Latinx adults with mental illness
               receive treatment each year compared to the U.S. average of 45%.
               This is due to many unique barriers to care. Are you a Miami-Dade
               Latinx resident and need resources for mental health?
@@ -33,7 +33,7 @@ export default function BootstrapCarousel() {
           />
           <Carousel.Caption>
             <h3>Immigration Lawyers </h3>
-            <p>With the ever-growing Hispanic population in Miami, it is no surprise that there is need for immigration services. Are you looking for help with immigration services? Click below </p>
+            <p>With the ever-growing Latinx population in Miami, it is no surprise that there is need for immigration services. Are you looking for help with immigration services? Click below </p>
             <Button variant="light">Learn More</Button>{" "}
           </Carousel.Caption>
         </Carousel.Item>

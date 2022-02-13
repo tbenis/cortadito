@@ -29,7 +29,7 @@ h1 {
 /* nav bar */
 .nav-bar {
   font-size: 25px;
-  background-color: #7F4F24;
+  background: linear-gradient(135deg, #582f0e, #cc8759de);
 }
 .nav-bar image {
   color:white;
@@ -102,11 +102,10 @@ svg{
 footer {
   margin-top: auto;
   width: 100%;
-  background: linear-gradient(135deg, #fe6703de, #582f0e);
+  background: linear-gradient(135deg, #cc8759de, #582f0e);
   border-top: 0.0625em solid lightgrey;
   bottom: 0;
   color: white;
-  height: 5em;
 }
 footer:before,
 footer:after {
@@ -165,4 +164,13 @@ footer .footer {
 
 .styled-table tbody tr:last-of-type {
   border-bottom: 1px solid rgb(100, 68, 21);
+}
+
+.goog-te-gadget {
+    float: right;
+    background: linear-gradient(135deg, #c27b4bde, #e09a6bde);
+    color: white;
+    padding-top: 33px;
+    padding-bottom: 38px;
+    padding-right: 30px;
 }
