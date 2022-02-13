@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import gavel from "../assets/gavel.jpeg"
 
 export default class Legal extends Component {
 
@@ -6,8 +7,8 @@ export default class Legal extends Component {
     <>
     <h1 className="tabletitle">
         <strong>LEGAL SERVICES</strong>
-
         </h1>
+        <img src={gavel} className="resourceimg"></img>
     <p className="resourcedescription">Miami-Dade residents and immigrants could face risks of being racially profiled and being detained without probable cause.</p>
     <p className="resourcedescription">For immigrants who arrive without documentation, the fear of deportation can prevent them from seeking help. Even though millions of children of undocumented immigrants are eligible for health insurance under the Affordable Care Act, many families either may not know about the eligibility or be afraid to register due to fear of separation.</p>
     <p className="resourcedescription">Are you a Miami-Dade Latinx immigrant or resident needing legal services?</p>
