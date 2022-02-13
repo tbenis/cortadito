@@ -28,33 +28,54 @@ export default class About extends Component {
             which could be why that percentage is so high for Miami.
           </p>
         </div>
-        <div className="about-creators">
           <h1>Get to know the mujeres behind Cortadito</h1>
-          <div>
+          <div className="about-creators">
+          <div className="each-creator">
             <h3>Benis</h3>
             <img className="aboutpic" src={benis} alt="benis"></img>
-            <p>https://github.com/tbenis <a href="https://github.com/tbenis" />  </p>
-            <p>https://www.linkedin.com/in/tbenis/ <a href="https://www.linkedin.com/in/tbenis/" />  </p>
+            <p>
+              https://github.com/tbenis <a href="https://github.com/tbenis" />{" "}
+            </p>
+            <p>
+              https://www.linkedin.com/in/tbenis/{" "}
+              <a href="https://www.linkedin.com/in/tbenis/" />{" "}
+            </p>
           </div>
-          <div>
+          <div className="each-creator">
             <h3>Jen</h3>
             <img className="aboutpic" src={jen} alt="natasha"></img>
-            <p>https://github.com/hopesunknown {" "} <a href="https://github.com/hopesunknown" /> </p>
-            <p>https://www.linkedin.com/in/jentchai/ {" "} <a href="" />  </p>
+            <p>
+              https://github.com/hopesunknown{" "}
+              <a href="https://github.com/hopesunknown" />{" "}
+            </p>
+            <p>
+              https://www.linkedin.com/in/jentchai/ <a href="" />{" "}
+            </p>
           </div>
-          <div>
+          <div className="each-creator">
             <h3>Natasha</h3>
             <img className="aboutpic" src={natasha} alt="natasha"></img>
-            <p>https://github.com/KollerCode <a href="https://github.com/KollerCode" />  </p>
-            <p>https://www.linkedin.com/in/kollernatasha/ <a href="https://www.linkedin.com/in/kollernatasha/" />  </p>
+            <p>
+              https://github.com/KollerCode{" "}
+              <a href="https://github.com/KollerCode" />{" "}
+            </p>
+            <p>
+              https://www.linkedin.com/in/kollernatasha/{" "}
+              <a href="https://www.linkedin.com/in/kollernatasha/" />{" "}
+            </p>
           </div>
-          <div>
-            <h3>Pema</h3> 
-            <img className="aboutpic" src={pema} alt="pema"></img>
-            <p>https://github.com/PemaL <a href="https://github.com/PemaL" />  </p>
-            <p>https://www.linkedin.com/in/pemal/ <a href="https://www.linkedin.com/in/pemal/ " />  </p>
+          <div className="each-creator">
+            <h3>Pema</h3>
+            <img className="aboutpic-1" src={pema} alt="pema"></img>
+            <p>
+              https://github.com/PemaL <a href="https://github.com/PemaL" />{" "}
+            </p>
+            <p>
+              https://www.linkedin.com/in/pemal/{" "}
+              <a href="https://www.linkedin.com/in/pemal/ " />{" "}
+            </p>
           </div>
-          <br/>
+          <br />
         </div>
       </>
     );

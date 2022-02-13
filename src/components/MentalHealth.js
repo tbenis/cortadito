@@ -1,11 +1,9 @@
-import React, { Component } from 'react';
-import '../assets/css/mentalHealth.css'
-import therapist from "../assets/therapist.jpeg"
+import React, { Component } from "react";
+import "../assets/css/mentalHealth.css";
+import therapist from "../assets/therapist.jpeg";
 
 export default class Mentalhealth extends Component {
-
     render() { 
-
       return (<>
       <div className="mental-health">
 
@@ -34,15 +32,15 @@ export default class Mentalhealth extends Component {
         </div>
        
         <h1 className="tabletitle">Bilingual Psychiatrists</h1>
-        <table className='styled-table'>
+        <table className="styled-table">
           <thead>
             <tr>
               <th>Name</th>
               <th>Description</th>
               <th>Contact Info</th>
             </tr>
-            </thead>
-            <tbody>
+          </thead>
+          <tbody>
             <tr>
               <th>Dr. Gonzalo F. Quesada, MD</th>
               <th>Psychiatrist</th>
@@ -81,8 +79,8 @@ export default class Mentalhealth extends Component {
               <th>Description</th>
               <th>Contact Info</th>
             </tr>
-            </thead>
-            <tbody>
+          </thead>
+          <tbody>
             <tr>
               <th>Teresita Lambertt, LMHC</th>
               <th>Counselor</th>
@@ -119,8 +117,8 @@ export default class Mentalhealth extends Component {
               <th>Description</th>
               <th>Contact Info</th>
             </tr>
-            </thead>
-            <tbody>
+          </thead>
+          <tbody>
             <tr>
               <th>Florida Blue Helpline</th>
               <th>Bilingual 24/7 free therapy for all</th>
@@ -209,5 +207,5 @@ export default class Mentalhealth extends Component {
       </div>
       </>
     );
-}
+  }
 }
