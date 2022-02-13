@@ -7,7 +7,10 @@ import family3 from "../assets/family3.jpg";
 import family4 from "../assets/family4.jpg";
 import family5 from "../assets/family5.jpg";
 import family6 from "../assets/family6.jpg";
-
+import family8 from "../assets/family8.jpeg";
+import family9 from "../assets/family9.jpg";
+import family10 from "../assets/family10.jpeg";
+import family11 from "../assets/family11.png";
 
 import "../assets/css/card.css";
 export default class Culture extends Component {
@@ -36,9 +39,12 @@ export default class Culture extends Component {
         </>
       );
     } else {
-      name = "Login/Signup to see contact Details for theses wonderful hosts";
+      name = " ";
     }
     return (
+      <>
+      <h1><strong>Community Activities</strong></h1>
+      <p>Login/Signup to see contact details for these wonderful hosts</p>
       <div class="culture-container">
         <h1> {name} </h1>
         <div class="row">
@@ -49,29 +55,29 @@ export default class Culture extends Component {
               {/* <!-- Thumbnail--> */}
               <div class="thumbnail">
                 <div class="date">
-                  <div class="day">day</div>
-                  <div class="month">month</div>
+                  <div class="day">1</div>
+                  <div class="month">April</div>
                 </div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" />
+                <img src={family1} />
               </div>
               {/* <!-- Post Content--> */}
               <div class="post-content">
-                <div class="category">Food</div>
-                <h1 class="title">Share Meals in Anita's Home</h1>
-                <h2 class="sub_title">Let The fun Begin</h2>
+                <div class="category">Excursion</div>
+                <h1 class="title">Join our family on a SeaWorld adventure</h1>
+                <h2 class="sub_title">Let The Fun Begin</h2>
                 <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet pulvinar purus. Pellentesque rutrum lobortis augue sit amet aliquet. Nam id tempor massa, non iaculis nisl. 
+                We are a Cuban and Colombian family of four. My children love animals and SeaWorld. I have a son with Autism. Looking for open-minded families that are understanding of disabilities and mental health. Bring your kids and let's go to SeaWorld!
                 </p>
                 <div class="post-meta">
                   < p class="timestamp"> Phone#:
-                    <span>{" "}{ pn1}</span>
+                    <span>{" "}{pn1}</span>
                   </p>
                   < p class="timestamp"> Email:
                     <span>{" "}{email1}</span>
                   </p>
                   < p class="timestamp"> Location:
                     <span>{" "} {add1}</span>, {" "}
-                    <span>Miami FL, 33169</span>
+                    <span>Miami, FL 33169</span>
                   </p>
 
                 </div>
@@ -87,28 +93,28 @@ export default class Culture extends Component {
               <div class="thumbnail">
                 <div class="date">
                   <div class="day">27</div>
-                  <div class="month">Mar</div>
+                  <div class="month">Apr</div>
                 </div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" />
+                <img src={family11} className="family9"/>
               </div>
               {/* <!-- Post Content--> */}
               <div class="post-content">
                 <div class="category">Food</div>
                 <h1 class="title">Share Meals in Anita's Home</h1>
-                <h2 class="sub_title">Let The fun Begin</h2>
+                <h2 class="sub_title">Fill your belly with a smile</h2>
                 <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet pulvinar purus. Pellentesque rutrum lobortis augue sit amet aliquet. Nam id tempor massa, non iaculis nisl. 
+                We are a Dominican-Haitian family who wants to share our culture with others through food! Come try our Caribbean cuisine with mangu and platano. Let's cook together, bring your fave dish and let's share our cultures!
                 </p>
                 <div class="post-meta">
                   < p class="timestamp"> Phone#:
-                    <span>{" "}{ pn2}</span>
+                    <span>{" "}{pn2}</span>
                   </p>
                   < p class="timestamp"> Email:
                     <span>{" "}{email2}</span>
                   </p>
                   < p class="timestamp"> Location:
                     <span>{" "} {add2}</span>, {" "}
-                    <span>Miami FL, 33157</span>
+                    <span>Miami, FL 33157</span>
                   </p>
 
                 </div>
@@ -123,17 +129,17 @@ export default class Culture extends Component {
               <div class="thumbnail">
                 <div class="date">
                   <div class="day">30</div>
-                  <div class="month">Mar</div>
+                  <div class="month">May</div>
                 </div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" />
+                <img src={family4} />
               </div>
               {/* <!-- Post Content--> */}
               <div class="post-content">
-                <div class="category">Food</div>
-                <h1 class="title">Share Meals in Anita's Home</h1>
-                <h2 class="sub_title">Let The fun Begin</h2>
+                <div class="category">Excursion</div>
+                <h1 class="title">Kayaking in South Beach</h1>
+                <h2 class="sub_title">Fun on the water</h2>
                 <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet pulvinar purus. Pellentesque rutrum lobortis augue sit amet aliquet. Nam id tempor massa, non iaculis nisl. 
+                Our family and friends from Puerto Rico love to get together every month for kayaking. It is a cool and relaxing activity for us. We would love to meet new people who love to kayak or are willing to try it out!
                 </p>
                 <div class="post-meta">
                   < p class="timestamp"> Phone#:
@@ -144,7 +150,7 @@ export default class Culture extends Component {
                   </p>
                   < p class="timestamp"> Location:
                     <span>{" "} {add3}</span>, {" "}
-                    <span>MMiami Beach Florida 33139</span>
+                    <span>Miami, Florida 33139</span>
                   </p>
 
                 </div>
@@ -159,17 +165,17 @@ export default class Culture extends Component {
               <div class="thumbnail">
                 <div class="date">
                   <div class="day">27</div>
-                  <div class="month">Mar</div>
+                  <div class="month">May</div>
                 </div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" />
+                <img src={family8} />
               </div>
               {/* <!-- Post Content--> */}
               <div class="post-content">
-                <div class="category">Food</div>
-                <h1 class="title">Share Meals in Anita's Home</h1>
-                <h2 class="sub_title">Let The fun Begin</h2>
+                <div class="category">Shopping</div>
+                <h1 class="title">Shopping in Wynwood</h1>
+                <h2 class="sub_title">Come shop with me</h2>
                 <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet pulvinar purus. Pellentesque rutrum lobortis augue sit amet aliquet. Nam id tempor massa, non iaculis nisl. 
+                 I enjoy going to Wynwood for shopping at locally-owned boutiques and gift shops. I like unique items that celebrate my Afro-Latinx heritage and I'd like to share it with you!
                 </p>
                 <div class="post-meta">
                   < p class="timestamp"> Phone#:
@@ -180,7 +186,7 @@ export default class Culture extends Component {
                   </p>
                   < p class="timestamp"> Location:
                     <span>{" "} {add4}</span>, {" "}
-                    <span>Florida(FL), 33180</span>
+                    <span>Miami, Florida 33180</span>
                   </p>
 
                 </div>
@@ -195,17 +201,17 @@ export default class Culture extends Component {
               <div class="thumbnail">
                 <div class="date">
                   <div class="day">27</div>
-                  <div class="month">Mar</div>
+                  <div class="month">June</div>
                 </div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" />
+                <img src={family10} />
               </div>
               {/* <!-- Post Content--> */}
               <div class="post-content">
-                <div class="category">Food</div>
-                <h1 class="title">Share Meals in Anita's Home</h1>
-                <h2 class="sub_title">Let The fun Begin</h2>
+                <div class="category">Language</div>
+                <h1 class="title">Language Exchange at the Winery</h1>
+                <h2 class="sub_title">Wine tasting and Spanish learning in the 305. DALE!!!</h2>
                 <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet pulvinar purus. Pellentesque rutrum lobortis augue sit amet aliquet. Nam id tempor massa, non iaculis nisl. 
+                So many of us want to learn Spanish and feel shy, so let's get borracho and practice!
                 </p>
                 <div class="post-meta">
                   < p class="timestamp"> Phone#:
@@ -216,7 +222,7 @@ export default class Culture extends Component {
                   </p>
                   < p class="timestamp"> Location:
                     <span>{" "} {add5}</span>, {" "}
-                    <span>Florida(FL), 33180</span>
+                    <span>Miami, Florida 33180</span>
                   </p>
 
                 </div>
@@ -234,17 +240,17 @@ export default class Culture extends Component {
               <div class="thumbnail">
                 <div class="date">
                   <div class="day">27</div>
-                  <div class="month">Mar</div>
+                  <div class="month">July</div>
                 </div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" />
+                <img src={family6} />
               </div>
               {/* <!-- Post Content--> */}
               <div class="post-content">
-                <div class="category">Food</div>
-                <h1 class="title">Share Meals in Anita's Home</h1>
-                <h2 class="sub_title">Let The fun Begin</h2>
+                <div class="category">Sports</div>
+                <h1 class="title">Marathon Running</h1>
+                <h2 class="sub_title">Race to the finish line</h2>
                 <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet pulvinar purus. Pellentesque rutrum lobortis augue sit amet aliquet. Nam id tempor massa, non iaculis nisl. 
+                We are a group of fitness-minded friends from Mexico City who run 5ks and marathons. Come join us for a run for the Lifetime Miami Marathon.
                 </p>
                 <div class="post-meta">
                   < p class="timestamp"> Phone#:
@@ -255,7 +261,7 @@ export default class Culture extends Component {
                   </p>
                   < p class="timestamp"> Location:
                     <span>{" "} {add6}</span>, {" "}
-                    <span>Florida(FL), 33169</span>
+                    <span>Miami, Florida, 33169</span>
                   </p>
 
                 </div>
@@ -269,6 +275,7 @@ export default class Culture extends Component {
         <br/>
         <br/>
       </div>
+      </>
     );
   }
 }
