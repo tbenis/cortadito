@@ -6,21 +6,22 @@ export default class Mentalhealth extends Component {
 
     render() { 
 
-      return (
+      return (<>
       <div className="mental-health">
-
 
         <h1 className="tabletitle">
           <strong>MENTAL HEALTH</strong>
         </h1>
+        <div className="container">
         <img src={therapist} className="resourceimg"></img>
-        <p className="resourcedescription">
+        <div class="centered">
+          <p className="resourcedescription">
           Miami was a hot spot during the pandemic and has been among the worst
           areas in the nation. The pandemic has exacerbated existing issues
           related to trauma, depression, anxiety, domestic violence,
           suicidality, and substance abuse among the Latinx families in Miami.
-        </p>
-        <p className="resourcedescription">
+          </p>
+          <p className="resourcedescription">
           Hispanic/Latinx communities show similar vulnerability to mental
           illness as the general population, but they face disparities in both
           access to and quality of treatment. More than half of Hispanic young
@@ -28,16 +29,10 @@ export default class Mentalhealth extends Component {
           treatment. This inequality puts these communities at a higher risk for
           more severe and persistent forms of mental health conditions, because
           without treatment, mental health conditions often worsen.
-        </p>
-        {/* <p>
-          Approximately 34% of Hispanic/Latinx adults with mental illness
-          receive treatment each year compared to the U.S. average of 45%. This
-          is due to many unique barriers to care.
-        </p>
-        <p>
-          Are you a Miami-Dade Latinx resident and need resources for mental
-          health?
-        </p> */}
+          </p>
+          </div>
+        </div>
+       
         <h1 className="tabletitle">Bilingual Psychiatrists</h1>
         <table className='styled-table'>
           <thead>
@@ -212,6 +207,7 @@ export default class Mentalhealth extends Component {
           </tbody>
         </table>
       </div>
+      </>
     );
 }
 }

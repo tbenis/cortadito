@@ -117,16 +117,36 @@ footer .footer {
   width: 100%;
   padding: 1.25em;
 }
+
+
 /* resources tables */
 
 .mentallink {
   color: white;
 }
 
+.container {
+  font-size: 18pt;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  background-color: rgb(75, 39, 6);
+  opacity: 75%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 98%;
+  transform: translate(-50%, -50%);
+}
+
 .resourcedescription {
   color: white;
-  margin-left: 10%;
-  margin-right: 10%;
+  font-weight: bolder;
+  /* margin-left: 10%;
+  margin-right: 10%; */
 }
 
 .tabletitle {
@@ -166,7 +186,6 @@ footer .footer {
   border-bottom: 1px solid rgb(100, 68, 21);
 
 }
-
 
 .goog-te-gadget {
     float: right;
