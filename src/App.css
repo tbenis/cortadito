@@ -54,8 +54,12 @@ h1 {
   color:white;
 }
 /* Cortadito */
-.navbar-light .navbar-brand {
-  color: white;
+a.brand.navbar-brand {
+  color: white
+}
+
+.navbar-nav .nav-link {
+  color:#582F0E;
 }
 
 .navbar-light .navbar-brand:hover {
@@ -66,10 +70,18 @@ h1 {
 .navbar-light .navbar-nav .nav-link {
   color: white
 }
+.nav-link{
+  color: #582F0E;
+}
 
 .about {
     background-color: #A68A64;
     color: white;
+    padding: 35px;
+}
+
+.about p{
+  padding: 20px;
 }
 
 .about-cortadito{
